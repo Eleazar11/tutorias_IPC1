@@ -21,7 +21,11 @@ public class Project_tutorias {
         System.out.println("Ingrese su nombre");
         nombre = scanner.nextLine();
         saludar(nombre);
-        opcionMenu=1;
+        System.out.println("elija su opcion");
+        System.out.println("juego 1");
+        System.out.println("juego 2");
+        System.out.println("juego 3");
+        opcionMenu=scanner.nextInt();
      
             switch (opcionMenu){
                 case 1:
