@@ -18,5 +18,10 @@ public class Hijo extends Madre {
     void buscarAspirina() {
         System.out.println("Hijo: Voy a buscar aspirina");
     }
+    
+    void comunicarseFarmaceutica(){
+        System.out.println("Hijo: Necesito una aspirina");
+        
+    }
 }
 

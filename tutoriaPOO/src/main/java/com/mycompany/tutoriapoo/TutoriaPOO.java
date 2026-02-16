@@ -9,13 +9,17 @@ package com.mycompany.tutoriapoo;
  * @author eleaz
  */
 public class TutoriaPOO {
+    Jugador jugador = new Jugador();
 
     public static void main(String[] args) {
 
-        Madre madre = new Madre();
-        Hijo hijo = new Hijo();
+        System.out.println("bienvido al juego ...");
+        System.out.println("ingrese su nombre");
+        
+        
+        
+        
+        
 
-        madre.emitirMensaje();
-        hijo.recibirMensaje();
     }
 }
